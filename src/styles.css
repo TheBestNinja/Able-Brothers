@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lato&display=swap');
+:root {
+    --main: white;
+    --text: rgb(38,66,49);
+  }
+
+    
+
+
+  body{
+      overflow-x: hidden;
+      font-family: 'Lato', sans-serif;
+      
+  }
+
+.header{
+    font-family: 'Cinzel', serif;
+    color: var(--text);
+    padding: 0.5vw;
+    background-color: var(--main);
+}
+.slider{
+    border-radius: 10%;
+}
+.line{
+    width: 150vw;
+    height: 0.5vw;
+    background-color: var(--text);
+}
+.services{
+  overflow: auto;  
+  white-space: nowrap;
+  
+}
+.service{
+   padding: 1vw;
+   display: inline-block;
+  }
+
+  .service-img{
+      height: 15vw;
+      background-color: var(--text);
+      border-radius: 100%;
+  }
+  div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }  
+  .footer{
+      background-color: var(--text);
+      color: var(--main);
+      font-family: 'Lato', sans-serif;
+  }
+  a{
+    color: var(--main);
+  }
+  p{
+    font-size: 2vw;
+    
+  }
+  @media only screen and (max-width: 700px) {
+  h1{
+    font-size: 8vw;
+  }
+  
+  h3{
+    font-size: 5vw;
+    
+  }
+  p{
+    font-size: 5vw;
+    
+  }
+}
